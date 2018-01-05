@@ -1,0 +1,37 @@
+extends global
+append styles
+	link(href='/assets/bootstrap/dist/css/jumbotron.css', rel='stylesheet')
+block body
+	.container
+		.header.clearfix
+			nav
+				ul.nav.nav-pills.pull-right
+					li.active(role='presentation')
+						a(href='/') Beranda
+					li(role='presentation')
+						a(href='/about-us') Tentang Kami
+			h3.text-muted
+				img(src='/assets/images/logo.png', width='26', height='26')
+				=app_name
+		.jumbotron
+			h2#question-title(style='display: none;') Test Pertanyaan
+			p.lead#question-text
+				script
+					| document.write('Hallo.');
+				noscript
+					| Hidupkan JavaScript anda
+			p#question-button(style='display: none;')
+				| #[a.btn.btn-success(href='javascript:;', role='button') Ya] #[a.btn.btn-danger(href='javascript:;', role='button') Tidak]
+		.row.about
+			.col-md-6
+				h4
+					| Test Berdasarkan 
+					i Knowledge Base
+				p
+					| Hasil golongan darah yang muncul merupakan kombinasi dari jawaban pertanyaan sifat tiap golongan darah.
+			.col-md-6
+				h4 Menggunakan Metode Pohon Pakar
+				p
+					| Kami menterjemahkan pohon pakar dari beberapa kriteria sifat tiap golongan darah kedalam bentuk bahasa program.
+		footer.footer
+			p © 2018

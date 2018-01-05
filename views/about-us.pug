@@ -1,0 +1,35 @@
+extends global
+append styles
+	link(href='/assets/bootstrap/dist/css/jumbotron.css', rel='stylesheet')
+block body
+	.container
+		.header.clearfix
+			nav
+				ul.nav.nav-pills.pull-right
+					li(role='presentation')
+						a(href='/') Beranda
+					li.active(role='presentation')
+						a(href='/about-us') Tentang Kami
+			h3.text-muted
+				img(src='/assets/images/logo.png', width='26', height='26')
+				=app_name
+		.row.about
+			h3(style='margin-top: -10px') Kelompok
+			.col-md-6
+				h4 Muhammad Fadhiil Rachman
+				.row
+					.col-md-2
+						img.img-circle(src='../assets/images/fadhiilrachman.jpg', width='56', height='58')
+					.col-md-10
+						p
+							| Saya mahasiswa dari program studi Informatika Mercu Buana yang biasa dipanggil Fadil.
+			.col-md-6
+				h4 Muhlis Iqbal Utomo
+				.row
+					.col-md-2
+						img.img-circle(src='../assets/images/iqbal.jpg', width='56', height='58')
+					.col-md-10
+						p
+							| Saya Muhlis Iqbal salah satu mahasiswa dari program studi Informatika Mercu Buana.
+		footer.footer
+			p © 2018
