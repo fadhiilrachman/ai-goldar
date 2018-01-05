@@ -12,7 +12,7 @@ The module requires NodeJS 8 and Python 3. You can download from [here](https://
 
 ## Installation
 
-Installation is simple. It can be installed from pip using the following command:
+Installation is simple. It can be installed using the following command:
 ```sh
 $ git clone https://github.com/fadhiilrachman/ai-goldar.git
 $ cd ai-goldar && npm install
