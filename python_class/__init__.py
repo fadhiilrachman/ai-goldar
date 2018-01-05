@@ -6,6 +6,6 @@ __version__         = '1.0.0'
 __license__         = 'GPL-3.0'
 __author__          = 'Fadhiil Rachman'
 __author_email__    = 'fadhiilrachman@gmail.com'
-__url__             = 'https://github.com/fadhiilrachman/goldar-js'
+__url__             = 'https://github.com/fadhiilrachman/ai-goldar'
 
 __all__ = ['GolDar', 'PohonPakar']
