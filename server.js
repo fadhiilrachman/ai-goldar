@@ -1,6 +1,6 @@
 /*
  * Simple AI: Blood type identification test
- * Developed by Fadhiil Rachman <fadhiilrachman@gmail.com>
+ * Developed by Fadhiil Rachman
  * 5 Jan 2018
  */
 
